@@ -1,6 +1,9 @@
 # From latest ruby version
 FROM bearstech/ruby-dev:3.0
 
+RUN apt-get update -y \
+	&& apt-get upgrade -y
+
 # Declare args
 ARG REVISION
 ARG RELEASE_TAG
