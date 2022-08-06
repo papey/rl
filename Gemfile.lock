@@ -1,7 +1,4 @@
 GEM
-  specs:
-
-GEM
   remote: https://rubygems.org/
   specs:
     addressable (2.8.0)
@@ -57,8 +54,8 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  faraday!
-  twitter!
+  faraday
+  twitter
 
 BUNDLED WITH
    2.3.19
