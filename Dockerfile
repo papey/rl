@@ -1,5 +1,5 @@
 # From latest ruby version
-FROM bearstech/ruby-dev:3.0
+FROM ruby:buster
 
 RUN apt-get update -y \
 	&& apt-get upgrade -y
